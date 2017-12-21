@@ -1003,7 +1003,7 @@
                         ajax_params.url = url;
                     }
 
-                    ajax_params.data = GetParamData
+                    ajax_params.data = GetParamData(url);
 
                     // Prepare the request
                     ajax_params.data[$(input).data("settings").queryParam] = query;
